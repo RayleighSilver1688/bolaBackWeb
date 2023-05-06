@@ -37,8 +37,11 @@ def test_open_page(browser):
     time.sleep(2)
     browser.find_element(By.XPATH, '//*[@id="username"]').send_keys('pytest001')
     browser.find_element(By.XPATH, '//*[@id="role"]').click()
-
+    time.sleep(2)
     print(browser.find_element(By.XPATH, '//*[@id="menu-role_id"]/div[3]/ul/li[1]').text)
     print(browser.find_element(By.XPATH, '//*[@id="menu-role_id"]/div[3]/ul/li[2]').text)
     print(browser.find_element(By.XPATH, '//*[@id="menu-role_id"]/div[3]/ul/li[3]').text)
+    browser.find_element(By.XPATH, '//*[@id="menu-role_id"]/div[3]/ul/li[1]').click()
+    time.sleep(2)
+    browser.find_element(By.XPATH, '/html/body/div[2]/div[3]/div/form/div/div[2]/button[2]').click()
     time.sleep(2)

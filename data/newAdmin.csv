@@ -1,1 +1,4 @@
-Account, role, Remark, Status
+username, role, msg
+,admin,Only letters and numbers allowed
+uu1,admin,Admin username duplicated
+pytest011,streamer,Admin username duplicated
