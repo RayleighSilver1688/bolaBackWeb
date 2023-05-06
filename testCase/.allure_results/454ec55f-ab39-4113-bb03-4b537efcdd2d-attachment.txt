@@ -1,0 +1,17 @@
+INFO     conftest:conftest.py:48 开始执行:testCase/test_login.py::test_login[-aA111111-Username is required]
+INFO     webdriver_helper.driver:logger.py:11 ====== WebDriver manager ======
+INFO     webdriver_helper.driver:logger.py:11 Get LATEST chromedriver version for google-chrome 112.0.5615
+INFO     webdriver_helper.driver:logger.py:11 Driver [C:\Users\User1\.wdm\drivers\chromedriver\win32\112.0.5615\chromedriver.exe] found in cache
+INFO     webdriver_helper.pom:test_login.py:16 Page init start : LoginPage
+INFO     webdriver_helper.pom:test_login.py:16 Finding: <LazyElement (attr=xpath attr=//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div[2]/form/div/div[3]/div/button attr=True attr=5 attr=0.5 )>
+INFO     webdriver_helper.pom:test_login.py:16 Finding: <LazyElement (attr=xpath attr=//*[@id="-password-login"] attr=True attr=5 attr=0.5 )>
+INFO     webdriver_helper.pom:test_login.py:16 Finding: <LazyElement (attr=xpath attr=//*[@id="username-login"] attr=True attr=5 attr=0.5 )>
+INFO     webdriver_helper.pom:test_login.py:16 Page init done: LoginPage
+INFO     webdriver_helper.pom:loginPO.py:34 Send_keys start: ele=<LazyElement (attr=xpath attr=//*[@id="username-login"] attr=True attr=5 attr=0.5 )>, content=, clear=True, by_js=False
+INFO     webdriver_helper.pom:loginPO.py:34 Send_keys done
+INFO     webdriver_helper.pom:loginPO.py:35 Send_keys start: ele=<LazyElement (attr=xpath attr=//*[@id="-password-login"] attr=True attr=5 attr=0.5 )>, content=aA111111, clear=True, by_js=False
+INFO     webdriver_helper.pom:loginPO.py:35 Send_keys done
+INFO     webdriver_helper.pom:loginPO.py:36 Click start: ele=<LazyElement (attr=xpath attr=//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div[2]/form/div/div[3]/div/button attr=True attr=5 attr=0.5 )>, by_js=False
+INFO     webdriver_helper.pom:loginPO.py:36 Click done
+INFO     webdriver_helper.pom:loginPO.py:25 Finding: <LazyElement (attr=xpath attr=//*[@id="standard-weight-helper-text-username-login"] attr=False attr=5 attr=0.5 )>
+INFO     conftest:conftest.py:52 执行结束:testCase/test_login.py::test_login[-aA111111-Username is required]

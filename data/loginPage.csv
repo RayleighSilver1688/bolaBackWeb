@@ -1,0 +1,6 @@
+username, password, msg
+,aA111111,Username is required
+admin,,Password is required
+11admin,aA111111,User does not exist
+admin,aA,Wrong password
+admin,aA111111,Dashboard

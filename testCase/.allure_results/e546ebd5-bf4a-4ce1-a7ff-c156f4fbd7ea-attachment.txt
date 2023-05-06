@@ -1,0 +1,15 @@
+INFO     conftest:conftest.py:48 开始执行:testCase/test_login.py::test_login[admin-aA-Wrong password]
+INFO     webdriver_helper.pom:test_login.py:16 Page init start : LoginPage
+INFO     webdriver_helper.pom:test_login.py:16 Finding: <LazyElement (attr=xpath attr=//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div[2]/form/div/div[3]/div/button attr=True attr=5 attr=0.5 )>
+INFO     webdriver_helper.pom:test_login.py:16 Finding: <LazyElement (attr=xpath attr=//*[@id="-password-login"] attr=True attr=5 attr=0.5 )>
+INFO     webdriver_helper.pom:test_login.py:16 Finding: <LazyElement (attr=xpath attr=//*[@id="username-login"] attr=True attr=5 attr=0.5 )>
+INFO     webdriver_helper.pom:test_login.py:16 Page init done: LoginPage
+INFO     webdriver_helper.pom:loginPO.py:34 Send_keys start: ele=<LazyElement (attr=xpath attr=//*[@id="username-login"] attr=True attr=5 attr=0.5 )>, content=admin, clear=True, by_js=False
+INFO     webdriver_helper.pom:loginPO.py:34 Send_keys done
+INFO     webdriver_helper.pom:loginPO.py:35 Send_keys start: ele=<LazyElement (attr=xpath attr=//*[@id="-password-login"] attr=True attr=5 attr=0.5 )>, content=aA, clear=True, by_js=False
+INFO     webdriver_helper.pom:loginPO.py:35 Send_keys done
+INFO     webdriver_helper.pom:loginPO.py:36 Click start: ele=<LazyElement (attr=xpath attr=//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div[2]/form/div/div[3]/div/button attr=True attr=5 attr=0.5 )>, by_js=False
+INFO     webdriver_helper.pom:loginPO.py:36 Click done
+INFO     webdriver_helper.pom:loginPO.py:31 Finding: <LazyElement (attr=xpath attr=//*[@id="root"]/div[2]/div/div[2] attr=False attr=5 attr=0.5 )>
+WARNING  webdriver_helper.pom:wait.py:86 Insufficient elements: 0 <= 0
+INFO     conftest:conftest.py:52 执行结束:testCase/test_login.py::test_login[admin-aA-Wrong password]
